@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Podrurze - Promocje</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" media=all href="style.css" />
+    <link rel="stylesheet" type="text/css" media=all href="offer.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <meta name="author" content=" Maksymilian Toczek">
+</head>
+
+<body>
+    <section id="background-col"></section>
+    <header>
+        <a href="index.html" class="logo">
+            <p>podrurze 🏳️</p>
+        </a>
+        <input type="checkbox" id="menu" class="menu" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="promocja.html">Promocje</a></li>
+                <li><a href="oferta.html">Oferta</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <label for="menu" class="menulabel">
+            <span></span>
+        </label>
+    </header>
+    <main>
+        <div id="glowna2">
+            <h1 id="naglowek">Nasze Oferty</h1>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="img/g1.jpg" style="width:100%" alt="of1">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="img/g6.jpg" style="width:100%" alt="of2">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="img/g5.jpg" style="width:100%" alt="of3">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/prom1.jpg" style="width:100%" alt="of4">
+                  </div>
+
+                  <div class="mySlides fade">
+                    <img src="img/g4.jpg" style="width:100%" alt="of5">
+                  </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span>  
+              <span class="dot" onclick="currentSlide(5)"></span>  
+            </div>
+            <button id="anchor" onclick="komunikat()">Spotkanie z pingwinami</button>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright <sup>&copy;</sup> 2020 Maksymilian Toczek 3F ZSE</p>
+    </footer>
+    <script src="slider.js"></script> 
+</body>
+</html>

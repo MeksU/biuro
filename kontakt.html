@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Podrurze - Kontakt</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" media=all href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <meta name="author" content=" Maksymilian Toczek">
+</head>
+
+<body>
+    <section id="background-con"></section>
+    <header>
+        <a href="index.html" class="logo">
+            <p>podrurze 🏳️</p>
+        </a>
+        <input type="checkbox" id="menu" class="menu" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="promocja.html">Promocje</a></li>
+                <li><a href="oferta.html">Oferta</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <label for="menu" class="menulabel">
+            <span></span>
+        </label>
+    </header>
+    <main>
+        <div id="contact">
+            <div id="kontakt">
+                <h2>Kontakt</h2>
+                <p class="kon">Email:</p>
+                <p class="kon"><i>podrurze@gmail.com</i></p>
+                <p class="kon">Telefon:</p>
+                <p class="kon"><i>+48 602 777 536</i></p>
+                <p class="kon">Adres:</p>
+                <p class="kon"><i>Jakiś 42/3, Kraków</i></p>
+                <p class="kon">Godziny otwarcia:</p>
+                <p class="kon"><i>9:00 - 17:00</i></p>
+            </div>
+            <div id="formularz">
+                <h2>Formularz kontaktowy</h2>
+                <form>
+                    <span>Podaj nazwisko</span><br>
+                    <input type="text" placeholder="Twoje nazwisko" required="required"><br>
+                    <span>Podaj adres e-mail</span><br>
+                    <input type="email" placeholder="Twój e-mail" required="required"><br>
+                    <span>Podaj numer telefonu</span><br>
+                    <input type="tel" placeholder="Twój telefon" required="required"><br>
+                    <span>Wybierz datę rozpoczęcia wycieczki</span><br>
+                    <input type="date" required="required"><br>
+                    <span>Wybierz datę zakończenia wycieczki</span><br>
+                    <input type="date" required="required"><br>
+                    <span>Wybierz wycieczkę</span><br>
+                    <select required="required" class="wybor">
+                        <option value="null" disabled="disabled" selected="selected">Kliknij aby wybrać</option>
+                        <option value="aztekowie">Aztekowie i ich cywilizacja</option>
+                        <option value="inkowie">Sekrety państwa Inków</option>
+                        <option value="majowie">Śladami Majów</option>
+                    </select><br>
+                    <span>Dodatkowe informacje</span><br>
+                    <textarea placeholder="Opcjonalnie" required="option"></textarea><br>
+                    <button type="submit" class="buttonik">Wyślij</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div id="dogory" onclick="scrolluj()"></div>
+    <footer>
+        <p>Copyright <sup>&copy;</sup> 2020 Maksymilian Toczek 3F ZSE</p>
+    </footer>
+    <script src="scroll-up.js"></script>
+</body>
+
+</html>
