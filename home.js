@@ -1,7 +1,7 @@
 function dowakacji() {
     var date = new Date();
     var dzis = date.getTime();
-    var wakacje = new Date(2020, 6, 26, 10);
+    var wakacje = new Date(2020, 5, 26, 10);
     var ms = wakacje.getTime();
     var time = ms - dzis;
     var dni = Math.floor((time) / 1000 / 60 / 60 / 24);
